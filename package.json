@@ -1,15 +1,16 @@
 {
-  "name": "tasktailwincss",
+  "name": "eccommerce",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "tailwindcss -i ./src/tailwind.css -o ./dist/style.css -w"
+    "build:styles": "npx tailwindcss -i ./src/assets/main.css -o ./dist/css/index.css --watch"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mamad",
   "license": "ISC",
-  "description": "",
+  "description": "Ecommerce",
   "dependencies": {
     "tailwindcss": "^3.4.10"
-  }
+  },
+  "devDependencies": {}
 }
