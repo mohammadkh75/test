@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-        @apply text-[62.5%] max-[320px]:text-[55%];
-    }
+  html {
+    @apply text-[62.5%] max-[320px]:text-[55%];
+  }
 }
 
-@layer components {}
+@layer components {
+}
 
-@layer utilities {}
+@layer utilities {
+}
