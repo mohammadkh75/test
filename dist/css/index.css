@@ -624,11 +624,6 @@ html {
        column-gap: 3rem;
 }
 
-.gap-x-16 {
-  -moz-column-gap: 4rem;
-       column-gap: 4rem;
-}
-
 .gap-x-28 {
   -moz-column-gap: 7rem;
        column-gap: 7rem;
@@ -646,10 +641,6 @@ html {
 
 .text-subject {
   font-size: 1.6rem;
-}
-
-.font-semibold {
-  font-weight: 600;
 }
 
 .font-medium {
