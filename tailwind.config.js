@@ -5,10 +5,12 @@ module.exports = {
     extend: {
       colors: {
         primary: '#FBEBB5',
+        sidesection :'#FAF4F4',
         secondary: {
           100: '#E2E2D5',
           200: '#888883',
         },
+        
       },
       container: {
         screens: {
@@ -49,6 +51,10 @@ module.exports = {
         greeting: '3.2rem',
         hero: '4rem',
         'xl-numeric': '6.4rem',
+        '8xl': '6rem',
+        '4xl' : '2.25rem',
+        '6xl' : '3.75rem',
+        '3xl' : '2.25rem',
       },
     },
   },
