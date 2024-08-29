@@ -5,12 +5,12 @@ module.exports = {
     extend: {
       colors: {
         primary: '#FBEBB5',
-        sidesection :'#FAF4F4',
+        pink :'#FAF4F4',
         secondary: {
           100: '#E2E2D5',
           200: '#888883',
         },
-        
+
       },
       container: {
         screens: {
