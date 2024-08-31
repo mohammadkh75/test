@@ -591,6 +591,11 @@ html {
   margin-right: auto;
 }
 
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -611,10 +616,6 @@ html {
   display: grid;
 }
 
-.h-\[42rem\] {
-  height: 42rem;
-}
-
 .h-full {
   height: 100%;
 }
@@ -626,10 +627,6 @@ html {
 .w-max {
   width: -moz-max-content;
   width: max-content;
-}
-
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-3 {
@@ -660,6 +657,11 @@ html {
 .gap-x-12 {
   -moz-column-gap: 3rem;
        column-gap: 3rem;
+}
+
+.gap-x-20 {
+  -moz-column-gap: 5rem;
+       column-gap: 5rem;
 }
 
 .gap-x-28 {
@@ -696,9 +698,19 @@ html {
      object-fit: fill;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .py-60 {
@@ -726,12 +738,40 @@ html {
   font-size: 6rem;
 }
 
+.text-base {
+  font-size: 1.4rem;
+}
+
+.text-greeting {
+  font-size: 3.2rem;
+}
+
 .text-subject {
   font-size: 1.6rem;
 }
 
+.text-header {
+  font-size: 1.8rem;
+}
+
+.text-hero {
+  font-size: 4rem;
+}
+
+.text-title {
+  font-size: 2.4rem;
+}
+
 .font-medium {
   font-weight: 500;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .leading-normal {
@@ -742,6 +782,21 @@ body {
   font-size: 1.4rem;
 }
 
+@media (min-width: 640px) {
+  .sm\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sm\:items-center {
+    align-items: center;
+  }
+
+  .sm\:justify-center {
+    justify-content: center;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:h-\[42rem\] {
     height: 42rem;
@@ -749,5 +804,9 @@ body {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 }
