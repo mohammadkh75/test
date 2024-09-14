@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./dist/css/index.css" />
+    <link rel="stylesheet" href="./src/assets/main.css" />
   </head>
   <body>
     <main>
@@ -45,12 +45,400 @@
             </div>
           </header>
           <!--banner-->   
-          <div class="w-full relative">
-            <img src="./src/icons/banner.svg" class="w-full object-cover"  />
-            <div class="absolute inset-0 flex-col justify-center items-center">
-             <img src="./src/icons/bannerlogo.svg" class="inset-0 items-center justify-center"/>
+          <div class="w-full relative flex flex-col items-center">
+            <img src="./src/icons/banner.svg" class="w-full object-cover" />
+            <div class="absolute inset-0 flex flex-col items-center justify-center">
+              <img src="./src/icons/bannerlogo.svg" class="w-auto sm:mb-0 h-auto" />
+              <p class="text-gray-900 text-title font-bold">Shop</p>
+              <p class="text-gray-500  text-base">
+                <a  class="hover:underline">Home</a> &gt; <a  class="hover:underline">Shop</a>
+              </p>
             </div>
           </div>
+          <!--result-->
+         <div class=" hidden md:flex  bg-pink py-[4rem] w-full">
+          <div class="flex mx-auto gap-x-[1rem]">
+            <img src="./src/icons/filter1.svg" />                              
+            <button class="text-base text-gray-900">Filter</button>
+            <img src="./src/icons/filter2.svg" />
+            <img src="./src/icons/filter3.svg" />
+            <img src="./src/icons/filter4.svg" />
+            <div class="my-auto text-gray-700">
+              Showing 1–16 of 32 results
+            </div>
+          </div>
+
+          <div class="flex mx-auto gap-x-[1rem]">
+         
+            <div class="flex items-center gap-1 text-gray-600">
+              <span>Show</span>
+              <select class="border border-gray-300 rounded px-2 py-1">
+                <option value="16">16</option>
+                <option value="32">32</option>
+                <option value="64">64</option>
+              </select>
+            </div>
+        
+         
+            <div class="flex items-center gap-1 text-gray-600">
+              <span>Sort by</span>
+              <select class="border border-gray-300 rounded px-2 py-1">
+                <option value="default">Default</option>
+                <option value="price">Price</option>
+                <option value="newest">Newest</option>
+              </select>
+            </div>
+          </div>
+         </div>
+
+
+         <div class=" flex-col md:hidden   bg-pink py-[4rem] w-full">
+          <div class="flex mb-[1rem] justify-center items-center  gap-x-[1rem]">
+            <img src="./src/icons/filter1.svg" />                              
+            <button class="text-base text-gray-900">Filter</button>
+            <img src="./src/icons/filter2.svg" />
+            <img src="./src/icons/filter3.svg" />
+            <img src="./src/icons/filter4.svg" />
+            <div class="my-auto text-gray-700">
+              Showing 1–16 of 32 results
+            </div>
+          </div>
+
+          <div class="flex justify-center mt-[1rem] items-center gap-x-[1rem]">
+         
+            <div class="flex items-center gap-1 text-gray-600">
+              <span>Show</span>
+              <select class="border border-gray-300 rounded px-2 py-1">
+                <option value="16">16</option>
+                <option value="32">32</option>
+                <option value="64">64</option>
+              </select>
+            </div>
+        
+         
+            <div class="flex items-center gap-1 text-gray-600">
+              <span>Sort by</span>
+              <select class="border border-gray-300 rounded px-2 py-1">
+                <option value="default">Default</option>
+                <option value="price">Price</option>
+                <option value="newest">Newest</option>
+              </select>
+            </div>
+          </div>
+         </div>
+         <!--products-->
+
+         <div
+            class="grid md:grid-cols-4 gap-x-20 [&_div]:flex [&_div]:flex-col [&_div]:justify-between [&_div>button]:flex [&_div>button]:flex-col [&_div>button]:size-full [&_div>button]:justify-between [&_div>button]:mt-8 [&_div>figure]:md:min-h-[28rem]"
+          >
+          <!--row1-->
+          <div>
+            <figure class="mx-auto">
+              <img src="./src/icons/column4.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column5.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column2.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto text-start"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column1.svg" />
+            </figure>
+
+            <button class="text-center">
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+          <!--row2-->
+
+          <div>
+            <figure class="mx-auto">
+              <img src="./src/icons/column9.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column8.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column7.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto text-start"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/colums6.svg" />
+            </figure>
+
+            <button class="text-center">
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+          <!--row3-->
+          
+          <div>
+            <figure class="mx-auto">
+              <img src="./src/icons/column13.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column12.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column11.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto text-start"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column10.svg" />
+            </figure>
+
+            <button class="text-center">
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+          <!--row4-->
+          
+          <div>
+            <figure class="mx-auto">
+              <img src="./src/icons/column19.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column18.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column17.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto text-start"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column16.svg" />
+            </figure>
+
+            <button class="text-center">
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+         </div>
+
+          <!--pagination-->
+          <div class="flex gap-x-[1rem] justify-center my-auto py-[6rem] ">
+            <button class="bg-primary text-gray-700 font-medium px-4 py-2 rounded-md">
+              1
+            </button>
+            <button class="bg-primary-light text-gray-700 font-medium px-4 py-2 rounded-md">
+              2
+            </button>
+            <button class="bg-primary-light text-gray-700 font-medium px-4 py-2 rounded-md">
+              3
+            </button>
+            <button class="bg-primary-light text-gray-700 font-medium px-4 py-2 rounded-md">
+              Next
+            </button>
+          </div>
+
+          <!--benefits section-->
+
+          <div class="sm:gap-y-[4rem] bg-pink grid md:grid-cols-3 justify-center items-center py-[10rem]">
+            <div>
+              <h3 class="text-greeting font-bold text-center text-gray-900">Free Delivery</h3>
+              <p class="text-gray-500 text-center mt-2">For all orders over $50,<br> consectetur adipiscing elit.</p>
+            </div>
+            <div>
+              <h3 class="text-greeting font-bold text-center text-gray-900">90 Days Return</h3>
+              <p class="text-gray-500 text-center mt-2">If goods have problems,<br> consectetur adipiscing elit.</p>
+            </div>
+
+            <div>
+              <h3 class="text-greeting  text-center font-bold text-gray-900">Secure Payment</h3>
+              <p class="text-gray-500 text-center mt-2">100% secure payment,<br> consectetur adipiscing elit.</p>
+            </div>
+
+          </div>
+          <!--footer-->
+          <footer class="py-16">
+            <div class="container mx-auto">
+              <div class="grid grid-cols-1 md:grid-cols-4">
+                <div>
+                  <p class="text-gray-500">
+                    400 University Drive Suite 200 Coral <br />Gables,<br />
+                    FL 33134 USA
+                  </p>
+                </div>
+    
+                <div>
+                  <span class="text-gray-400 text-subject mb-4">Links</span>
+                  <ul class="space-y-8 text-black">
+                    <li><a>Home</a></li>
+                    <li><a>Shop</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+    
+                <div>
+                  <span class="text-gray-400 text-subject mb-4">Help</span>
+                  <ul class="space-y-8">
+                    <li>
+                      <a class="text-black hover:text-gray-700">Payment Options</a>
+                    </li>
+                    <li><a class="text-black hover:text-gray-700">Returns</a></li>
+                    <li>
+                      <a class="text-black hover:text-gray-700">Privacy Policies</a>
+                    </li>
+                  </ul>
+                </div>
+    
+                <div>
+                  <span class="text-gray-400 text-subject mb-4">Newsletter</span>
+                  <form class="flex space-x-4">
+                    <input
+                      type="email"
+                      placeholder="Enter Your Email Address"
+                      class="border-b-2 pb-4 border-black text-gray-700 focus:outline-none"
+                    />
+                    <button type="submit" class="border-b-2 pb-4 border-black">
+                      SUBSCRIBE
+                    </button>
+                  </form>
+                </div>
+              </div>
+    
+              <div class="border-t border-gray-200 mt-8 pt-4 text-start">
+                <p class="text-gray-500">2022 Meubel House. All rights reserved</p>
+              </div>
+            </div>
+          </footer>
+
+
+
+
+         
+
+          
     </main>
   </body>
 </html>
