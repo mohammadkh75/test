@@ -3,13 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./dist/css/index.css" />
+    <link rel="stylesheet" href="./src/assets/main.css" />
   </head>
 
   <body>
     <main>
       <!-- HEADER -->
-      <div class="w-full bg-primary">
+      <header class="w-full bg-primary">
         <div class="container mx-auto py-12">
           <div class="grid grid-cols-3">
             <div></div>
@@ -25,7 +25,7 @@
               </ul>
             </nav>
 
-            <div class="flex items-center gap-x-12 justify-end">
+            <div class="items-center gap-x-12 justify-end">
               <ul class="flex items-center gap-x-12 justify-center">
                 <li>
                   <button>
@@ -54,7 +54,335 @@
             </div>
           </div>
         </div>
+      </header>
+
+      <!-- HERO SECTION-->
+      <section class="w-full bg-primary">
+        <div class="container mx-auto py-12">
+          <div class="grid md:grid-cols-2 bg-primary">
+            <div class="flex flex-col justify-center">
+              <h1 class="font-medium text-8xl leading-normal">
+                Rocket single <br />
+                seater
+              </h1>
+              <button
+                class="mt-8 border-b-2 pb-6 border-black font-medium text-4xl w-max"
+              >
+                Shop Now
+              </button>
+            </div>
+            <figure>
+              <img
+                src="./src/icons/chair.svg"
+                class="w-full h-full object-cover"
+              />
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sides Section-->
+      <section class="flex w-full bg-pink items-center justify-center py-60">
+        <div class="container mx-auto">
+          <div class="grid md:grid-cols-2 gap-x-10">
+            <div class="flex flex-col">
+              <figure class="md:h-[42rem]">
+                <img
+                  src="./src/icons/chair3.svg"
+                  class="w-full h-full object-fill"
+                />
+              </figure>
+
+              <div class="w-max">
+                <h3 class="text-6xl mb-12">Side table</h3>
+                <button
+                  class="border-b-2 pb-4 border-black font-medium text-4xl"
+                >
+                  View More
+                </button>
+              </div>
+            </div>
+
+            <div class="flex flex-col">
+              <figure class="md:h-[42rem]">
+                <img
+                  src="./src/icons/chair2.svg"
+                  class="w-full h-full object-fill"
+                />
+              </figure>
+
+              <div class="w-max">
+                <h3 class="text-6xl mb-12">Side table</h3>
+                <button
+                  class="border-b-2 pb-4 border-black font-medium text-4xl"
+                >
+                  View More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Picking Section -->
+      <div class="flex w-full justify-center items-center">
+        <div
+          class="container flex flex-col w-full items-center justify-center py-32"
+        >
+          <div class="flex flex-col pb-20">
+            <span class="text-greeting font-medium mx-auto"
+              >Top Picks For You</span
+            >
+            <span class="text-subject text-gray-500 font-thin py-10 text-center"
+              >Find a bright ideal to suit your taste with our great selection
+              of suspension, floor and table lights.</span
+            >
+          </div>
+
+          <div
+            class="grid md:grid-cols-4 gap-x-20 [&_div]:flex [&_div]:flex-col [&_div]:justify-between [&_div>button]:flex [&_div>button]:flex-col [&_div>button]:size-full [&_div>button]:justify-between [&_div>button]:mt-8 [&_div>figure]:md:min-h-[28rem]"
+          >
+            <div>
+              <figure>
+                <img src="./src/icons/trenton.svg" />
+              </figure>
+
+              <button>
+                <span class="text-header text-start"
+                  >Trenton Modular Safa_3</span
+                >
+                <span class="text-greeting font-medium">Rs 25.000.00</span>
+              </button>
+            </div>
+
+            <div>
+              <figure>
+                <img src="./src/icons/granite1.svg " />
+              </figure>
+
+              <button>
+                <span class="text-header text-start"
+                  >Granite Dining Table With Dining medium</span
+                >
+                <span class="text-greeting font-medium">Rs 25.000.00</span>
+              </button>
+            </div>
+
+            <div>
+              <figure>
+                <img src="./src/icons/outdoor.png" />
+              </figure>
+
+              <button>
+                <span class="text-header text-start"
+                  >Outdoor Bar Table And Stool</span
+                >
+                <span class="text-greeting font-medium">Rs 25.000.00</span>
+              </button>
+            </div>
+
+            <div>
+              <figure>
+                <img src="./src/icons/plain.png" />
+              </figure>
+
+              <button>
+                <span class="text-header text-start"
+                  >Plain Console With Teak Mirror</span
+                >
+                <span class="text-greeting font-medium">Rs 25.000.00</span>
+              </button>
+            </div>
+          </div>
+
+          <div class="py-20">
+            <button class="border-b-2 pb-4 border-black font-medium text-4xl">
+              View More
+            </button>
+          </div>
+        </div>
       </div>
+
+      <!--newProduct Section-->
+      <div class="bg-primary-light w-full">
+        <div class="container flex flex-col md:flex-row">
+          <figure>
+            <img src="./src/icons/newproduct.svg" />
+          </figure>
+          <div class="flex flex-col mx-auto my-auto">
+            <span class="text-title mx-auto">New Arrivals</span>
+            <span class="text-hero font-bold mx-auto">Asgaard Sofa</span>
+            <button
+              class="px-8 py-4 border border-black rounded-none mt-8 text-subject"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!--our blog-->
+      <div class="[&_div]:flex [&_div]:flex-col">
+        <div class="mt-10 mb-10">
+          <span class="text-greeting font-medium mx-auto">Our Blogs</span>
+          <span class="text-subject text-gray-500 font-thin py-5 text-center">
+            Find a Bright Ideal To Suit Your Taste With Our Great Selection
+          </span>
+        </div>
+
+        <div>
+          <section class="md:flex mx-auto md:gap-x-10 [&_button]:mx-52">
+            <div>
+              <figure>
+                <img src="./src/icons/figure1.svg" class="rounded-md" />
+                <div class="text-center text-header mt-[2rem] mb-[2rem]">
+                  Going all-in with millennial design
+                </div>
+                <button
+                  class="border-b-2 pb-4 border-black font-medium text-4xl mb-[2rem]"
+                >
+                  Read More
+                </button>
+
+                <div class="flex items-center justify-center gap-2">
+                  <img src="./src/icons/date1.svg" class="w-5 h-5" />
+                  <span class="text-lg text-gray-800"
+                    >5 min 12 octobr 2022</span
+                  >
+                </div>
+              </figure>
+            </div>
+
+            <div>
+              <figure>
+                <img src="./src/icons/figure2.svg" class="rounded-md" />
+                <div class="text-center text-header mt-[2rem] mb-[2rem]">
+                  Going all-in with millennial design
+                </div>
+                <button
+                  class="border-b-2 pb-4 border-black font-medium text-4xl mb-[2rem]"
+                >
+                  Read More
+                </button>
+
+                <div class="flex items-center justify-center gap-2">
+                  <img src="./src/icons/date1.svg" class="w-5 h-5" />
+                  <span class="text-lg text-gray-800"
+                    >5 min 12 octobr 2022</span
+                  >
+                </div>
+              </figure>
+            </div>
+
+            <div>
+              <figure>
+                <img src="./src/icons/figure3.svg" class="rounded-md" />
+                <div class="text-center text-header mt-[2rem] mb-[2rem]">
+                  Going all-in with millennial design
+                </div>
+                <button
+                  class="hover:text-6xl border-b-2 pb-4 border-black font-medium text-4xl mb-[2rem]"
+                >
+                  Read More
+                </button>
+
+                <div class="flex items-center justify-center gap-2">
+                  <img src="./src/icons/date1.svg" class="w-5 h-5" />
+                  <span class="text-lg text-gray-800"
+                    >5 min 12 octobr 2022</span
+                  >
+                </div>
+              </figure>
+            </div>
+          </section>
+        </div>
+
+        <div class="justify-center items-center mt-20">
+          <button
+            class="border-b-2 pb-4 border-black font-medium text-4xl mb-8"
+          >
+            View All Post
+          </button>
+        </div>
+      </div>
+
+      <!--our instagram-->
+      <div class="w-full relative">
+        <figure>
+          <img
+            src="./src/icons/backinst.svg"
+            class="w-full h-auto object-cover"
+          />
+        </figure>
+
+        <div
+          class="absolute inset-0 flex-col sm:mt-0 md:mt-[8rem] justify-center text-center"
+        >
+          <h4 class="text-gray-800 text-hero font-black">Our Instagram</h4>
+          <h5 class="text-gray-700 text-base font-medium">
+            Follow Our Store On Instagram
+          </h5>
+
+          <button class="py-3 px-[11rem] mt-8 rounded-lg shadow-xl bg-pink">
+            Follow Us
+          </button>
+        </div>
+      </div>
+
+      <!--footer-->
+      <footer class="py-16">
+        <div class="container mx-auto">
+          <div class="grid grid-cols-1 md:grid-cols-4">
+            <div>
+              <p class="text-gray-500">
+                400 University Drive Suite 200 Coral <br />Gables,<br />
+                FL 33134 USA
+              </p>
+            </div>
+
+            <div>
+              <span class="text-gray-400 text-subject mb-4">Links</span>
+              <ul class="space-y-8 text-black">
+                <li><a>Home</a></li>
+                <li><a>Shop</a></li>
+                <li><a>About</a></li>
+                <li><a>Contact</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <span class="text-gray-400 text-subject mb-4">Help</span>
+              <ul class="space-y-8">
+                <li>
+                  <a class="text-black hover:text-gray-700">Payment Options</a>
+                </li>
+                <li><a class="text-black hover:text-gray-700">Returns</a></li>
+                <li>
+                  <a class="text-black hover:text-gray-700">Privacy Policies</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <span class="text-gray-400 text-subject mb-4">Newsletter</span>
+              <form class="flex space-x-4">
+                <input
+                  type="email"
+                  placeholder="Enter Your Email Address"
+                  class="border-b-2 pb-4 border-black text-gray-700 focus:outline-none"
+                />
+                <button type="submit" class="border-b-2 pb-4 border-black">
+                  SUBSCRIBE
+                </button>
+              </form>
+            </div>
+          </div>
+
+          <div class="border-t border-gray-200 mt-8 pt-4 text-start">
+            <p class="text-gray-500">2022 Meubel House. All rights reserved</p>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>

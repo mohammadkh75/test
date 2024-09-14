@@ -5,9 +5,22 @@ module.exports = {
     extend: {
       colors: {
         primary: '#FBEBB5',
+        pink: '#FAF4F4',
+        'primary-light': '#FFF9E6',
         secondary: {
           100: '#E2E2D5',
           200: '#888883',
+        },
+        gray: {
+          100: '#F7F7F7',
+          200: '#E5E5E5',
+          300: '#D4D4D4',
+          400: '#A3A3A3',
+          500: '#737373',
+          600: '#9F9F9F',
+          700: '#404040',
+          800: '#262626',
+          900: '#171717',
         },
       },
       container: {
@@ -49,6 +62,10 @@ module.exports = {
         greeting: '3.2rem',
         hero: '4rem',
         'xl-numeric': '6.4rem',
+        '8xl': '6rem',
+        '4xl': '2.25rem',
+        '6xl': '3.75rem',
+        '3xl': '2.25rem',
       },
     },
   },
