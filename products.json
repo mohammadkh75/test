@@ -1,0 +1,231 @@
+{
+    "data": [
+        {
+            "name": "Modern Chair",
+            "price": 120.99,
+            "description": "A stylish modern chair with a comfortable cushion.",
+            "category": "Chairs",
+            "image": "./src/icons/column1.svg"
+            
+        },
+        {
+            "name": "Wooden Dining Table",
+            "price": 450.00,
+            "description": "A large wooden dining table that seats six.",
+            "category": "Tables",
+             "image": "./src/icons/column2.svg"
+        },
+        {
+            "name": "Leather Sofa",
+            "price": 899.99,
+            "description": "A luxurious leather sofa with reclining seats.",
+            "category": "Sofas",
+             "image": "./src/icons/column4.svg"
+        },
+        {
+            "name": "Office Desk",
+            "price": 299.99,
+            "description": "A spacious office desk with multiple drawers.",
+            "category": "Desks",
+             "image": "./src/icons/column5.svg"
+        },
+        {
+            "name": "Ergonomic Office Chair",
+            "price": 199.99,
+            "description": "An ergonomic office chair with lumbar support.",
+            "category": "Chairs",
+             "image": "./src/icons/column8.svg"
+        },
+        {
+            "name": "Glass Coffee Table",
+            "price": 150.00,
+            "description": "A sleek glass coffee table with a metal frame.",
+            "category": "Tables",
+             "image": "./src/icons/column7.svg"
+        },
+        {
+            "name": "Recliner Sofa",
+            "price": 799.99,
+            "description": "A comfortable recliner sofa with adjustable headrests.",
+            "category": "Sofas",
+             "image": "./src/icons/column8.svg"
+        },
+        {
+            "name": "Bookshelf",
+            "price": 120.00,
+            "description": "A tall bookshelf with five shelves.",
+            "category": "Storage",
+             "image": "./src/icons/column9.svg"
+        },
+        {
+            "name": "Dining Chair Set",
+            "price": 250.00,
+            "description": "A set of four dining chairs with cushioned seats.",
+            "category": "Chairs",
+             "image": "./src/icons/column10.svg"
+        },
+        {
+            "name": "Round Dining Table",
+            "price": 350.00,
+            "description": "A round dining table made of solid wood.",
+            "category": "Tables",
+             "image": "./src/icons/column11.svg"
+        },
+        {
+            "name": "Sectional Sofa",
+            "price": 1200.00,
+            "description": "A large sectional sofa with a chaise lounge.",
+            "category": "Sofas",
+             "image": "./src/icons/column12.svg"
+        },
+        {
+            "name": "Bedside Table",
+            "price": 80.00,
+            "description": "A small bedside table with a drawer.",
+            "category": "Tables",
+             "image": "./src/icons/column13.svg"
+        },
+        {
+            "name": "Rocking Chair",
+            "price": 150.00,
+            "description": "A classic wooden rocking chair.",
+            "category": "Chairs",
+             "image": "./src/icons/column16.svg"
+        },
+        {
+            "name": "Futon Sofa Bed",
+            "price": 300.00,
+            "description": "A versatile futon that converts into a bed.",
+            "category": "Sofas",
+             "image": "./src/icons/column17.svg"
+        },
+        {
+            "name": "Bar Stool",
+            "price": 75.00,
+            "description": "A high bar stool with a cushioned seat.",
+            "category": "Chairs",
+             "image": "./src/icons/column18.svg"
+        },
+        {
+            "name": "Console Table",
+            "price": 200.00,
+            "description": "A narrow console table with a drawer.",
+            "category": "Tables",
+             "image": "./src/icons/column19.svg"
+        },
+        {
+            "name": "Rocking Chair",
+            "price": 150.00,
+            "description": "A classic wooden rocking chair.",
+            "category": "Chairs",
+             "image": "./src/icons/column16.svg"
+        },
+        {
+            "name": "Futon Sofa Bed",
+            "price": 300.00,
+            "description": "A versatile futon that converts into a bed.",
+            "category": "Sofas",
+             "image": "./src/icons/column17.svg"
+        },
+        {
+            "name": "Bar Stool",
+            "price": 75.00,
+            "description": "A high bar stool with a cushioned seat.",
+            "category": "Chairs",
+             "image": "./src/icons/column18.svg"
+        },
+        {
+            "name": "Console Table",
+            "price": 200.00,
+            "description": "A narrow console table with a drawer.",
+            "category": "Tables",
+             "image": "./src/icons/column19.svg"
+        },
+        {
+            "name": "Modern Chair",
+            "price": 120.99,
+            "description": "A stylish modern chair with a comfortable cushion.",
+            "category": "Chairs",
+            "image": "./src/icons/column1.svg"
+            
+        },
+        {
+            "name": "Wooden Dining Table",
+            "price": 450.00,
+            "description": "A large wooden dining table that seats six.",
+            "category": "Tables",
+             "image": "./src/icons/column2.svg"
+        },
+        {
+            "name": "Leather Sofa",
+            "price": 899.99,
+            "description": "A luxurious leather sofa with reclining seats.",
+            "category": "Sofas",
+             "image": "./src/icons/column4.svg"
+        },
+        {
+            "name": "Office Desk",
+            "price": 299.99,
+            "description": "A spacious office desk with multiple drawers.",
+            "category": "Desks",
+             "image": "./src/icons/column5.svg"
+        },
+        {
+            "name": "Ergonomic Office Chair",
+            "price": 199.99,
+            "description": "An ergonomic office chair with lumbar support.",
+            "category": "Chairs",
+             "image": "./src/icons/column8.svg"
+        },
+        {
+            "name": "Glass Coffee Table",
+            "price": 150.00,
+            "description": "A sleek glass coffee table with a metal frame.",
+            "category": "Tables",
+             "image": "./src/icons/column7.svg"
+        },
+        {
+            "name": "Recliner Sofa",
+            "price": 799.99,
+            "description": "A comfortable recliner sofa with adjustable headrests.",
+            "category": "Sofas",
+             "image": "./src/icons/column8.svg"
+        },
+        {
+            "name": "Bookshelf",
+            "price": 120.00,
+            "description": "A tall bookshelf with five shelves.",
+            "category": "Storage",
+             "image": "./src/icons/column9.svg"
+        },
+        {
+            "name": "Dining Chair Set",
+            "price": 250.00,
+            "description": "A set of four dining chairs with cushioned seats.",
+            "category": "Chairs",
+             "image": "./src/icons/column10.svg"
+        },
+        {
+            "name": "Round Dining Table",
+            "price": 350.00,
+            "description": "A round dining table made of solid wood.",
+            "category": "Tables",
+             "image": "./src/icons/column11.svg"
+        },
+        {
+            "name": "Sectional Sofa",
+            "price": 1200.00,
+            "description": "A large sectional sofa with a chaise lounge.",
+            "category": "Sofas",
+             "image": "./src/icons/column12.svg"
+        },
+        {
+            "name": "Bedside Table",
+            "price": 80.00,
+            "description": "A small bedside table with a drawer.",
+            "category": "Tables",
+             "image": "./src/icons/column13.svg"
+        }
+      
+    ]
+}
