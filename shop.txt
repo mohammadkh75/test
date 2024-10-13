@@ -1,0 +1,210 @@
+    <div>
+            <figure class="mx-auto">
+              <img src="./src/icons/column4.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="  flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column5.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="  flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column2.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto text-start"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class=" flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column1.svg" />
+            </figure>
+
+            <button class="text-center">
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+          <!--row2-->
+
+          <div >
+            <figure class="mx-auto">
+              <img src="./src/icons/column9.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class=" flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column8.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class=" flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column7.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto text-start"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class=" flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/colums6.svg" />
+            </figure>
+
+            <button class="text-center">
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+          <!--row3-->
+          
+          <div>
+            <figure class="mx-auto">
+              <img src="./src/icons/column13.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class=" flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column12.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class=" flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column11.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto text-start"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class=" flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column10.svg" />
+            </figure>
+
+            <button class="text-center">
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+          <!--row4-->
+          
+          <div>
+            <figure class=" mx-auto">
+              <img src="./src/icons/column19.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class=" flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column18.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column17.svg" />
+            </figure>
+
+            <button>
+              <span class="text-header mx-auto text-start"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting  mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
+
+          <div class="flex flex-col">
+            <figure class="mx-auto">
+              <img src="./src/icons/column16.svg" />
+            </figure>
+
+            <button class="text-center">
+              <span class="text-header mx-auto"
+                >Trenton Modular Safa_3</span
+              >
+              <span class="text-greeting mx-auto font-medium">Rs 25.000.00</span>
+            </button>
+          </div>
